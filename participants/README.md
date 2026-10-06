@@ -202,3 +202,5 @@ The organizer RL model is a training asset. Do not include that 8 MB model in yo
 The event is double elimination. A first series loss moves a team to the Elimination Bracket; a second eliminates it. A tie may contain one to six games, alternates sides, and uses aggregate goals. Aggregate draws use a recorded seeded penalty shootout. If the undefeated finalist loses the Grand Final, a reset final decides the champion.
 
 For protocol details, reward advice, archive structure, and the final checklist, read [README_TRAINING_AND_SUBMISSION.md](README_TRAINING_AND_SUBMISSION.md).
+#   P e n d u l u m - F I F A - B o t  
+ 

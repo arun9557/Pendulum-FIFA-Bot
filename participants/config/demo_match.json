@@ -5,7 +5,7 @@
   "show_each_iteration": false,
   "log_directory": "logs",
   "player_1": {
-    "name": "Participant Starter Bot",
+    "name": "Pendulum",
     "command": ["python", "-m", "team_bot.bot", "--model", "team_bot/models/example_policy.json"],
     "working_directory": "submission_kit"
   },

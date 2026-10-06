@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "archive": "C:\\Users\\USER\\Downloads\\Mlfootball_env\\participants\\dist\\Pendulum.zip",
+  "sha256": "e0d75094576264964050012765a1c687b2512019404fd8e0eecf2782841c92aa",
+  "team_name": "Pendulum",
+  "command": [
+    "python",
+    "-m",
+    "team_bot.bot",
+    "--model",
+    "team_bot/models/example_policy.json"
+  ],
+  "compressed_bytes": 453885,
+  "uncompressed_bytes": 2218434,
+  "file_count": 8,
+  "dependencies": [],
+  "model_files": [
+    "team_bot/models/example_policy.json",
+    "team_bot/models/trained_rl.json"
+  ],
+  "errors": [],
+  "warnings": []
+}
