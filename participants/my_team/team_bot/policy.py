@@ -169,12 +169,12 @@ def tactical_action(observation: dict[str, Any], kick_power: int = 3) -> dict[st
     target_x, target_y = ball["x"], ball["y"]
     if ball["status"] == "moving":
         velocity = ball.get("velocity", {})
-        target_x += float(velocity.get("x", 0.0))
-        target_y += float(velocity.get("y", 0.0))
+        target_x += 1.2 * float(velocity.get("x", 0.0))
+        target_y += 1.2 * float(velocity.get("y", 0.0))
     elif ball["possession"] == opponent_id:
         defend_sign = -1 if attack == "UP" else 1
-        target_y += defend_sign * 3.0
-        target_x += -3.0 if opponent["x"] > width / 2.0 else 3.0
+        target_y += defend_sign * 4.0
+        target_x += -4.0 if opponent["x"] > width / 2.0 else 4.0
     preferred = direction_toward(target_x - me["x"], target_y - me["y"], dead_zone=0.6)
     return {"move": _safe_move(observation, preferred)}
 
