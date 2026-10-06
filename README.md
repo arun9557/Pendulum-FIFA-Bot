@@ -154,4 +154,4 @@ Mlfootball_env/
 
 - **No External Dependencies:** 100% pure Python standard library.
 - **Deterministic:** Completely reproducible from match seeds and starting state.
-- **Verified Policy:** Passes `submission_checker.py` with 0 warnings, 0 errors, and 0 action errors.
+- **Verified Policy:** Passes `submission_checker.py` with 0 warnings, 0 errors, and 0 action errors......
